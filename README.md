@@ -12,7 +12,7 @@
 
 
 ```js
-db.google.find().sort({“rankingInfo.absoluteScore” : -1}).limit(10)
+db.google.find().sort({“rankingInfo.absoluteScore” : 1}).limit(10)
 ```
 ```
 { “_id” : ObjectId(“548649dcd23e3ff8aa754362”), “id” : “986695912626”, “name” : “the little memory”, “productId” : “honmnihjmiioifehpiepkldneddleedn”, “primaryMimeTypes” : [ “application/vnd.google-apps.drive-sdk.986695912626” ] }
@@ -35,12 +35,14 @@ received apps.  This is good to know so we don’t create something that’s alr
 
 {{ discussion }}
 
+## Finding (add more if necessary)
+
 # Objective 2. Data App
 
 ## Mockup 
 
 ![visualization](DriveNotify.jpg)
-![visualization](ChromeNotify2.jpg)
+![visualization](ChromeNotify.jpg)
 
 Our idea is a notification app that notifies you when changes are made to a file in drive. This tool would be best utilized as a chrome extension or google now.
 Key features:
@@ -63,5 +65,13 @@ Stretch goals:
 
 ## Implementation plan 
 
-(how your team would build this app if given sufficient time)
+We will build a Chrome app which will connect to the Realtime Chrome API. Our
+app will create a websocket connection with Google, and listen for updates to
+all of the users collaborative documents.
 
+The crux of this app is not in the basic notifications, but the ability to
+parse the diffs and give the passive user context about the activity on
+collaborative documents. That said, we will use NLP to learn things about the
+mood of the user, and the topics which they are addressing. We will use stats
+to determine when the someone starts writing about something new, so we can
+issue notifications only when they are pertinent.
