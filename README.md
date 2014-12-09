@@ -48,7 +48,6 @@ received apps.  This is good to know so we don’t create something that’s alr
 It seems like most apps are using the Google Drive SDK filetypes, which means they may not be
 implementing solutions which are non-webapps.
 
-
 # Raven
 
 ## Mockup 
