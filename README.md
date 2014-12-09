@@ -76,7 +76,7 @@ Stretch goals:
 
 ## Implementation plan 
 
-We will build a Chrome app which will connect to the Realtime Chrome API. Our
+We will build a Chrome app which will connect to the Realtime Drive API. Our
 app will create a websocket connection with Google, and listen for updates to
 all of the users collaborative documents.
 
