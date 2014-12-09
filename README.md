@@ -47,9 +47,10 @@ received apps.  This is good to know so we don’t create something that’s alr
 Our idea is a notification app that notifies you when changes are made to a file in drive. This tool would be best utilized as a chrome extension or google now.
 Key features:
 * Links to Hangouts and the drive document
+* Specify number of notifications recieved
 
 Stretch goals:
-* Create an application that is integrated more closely with other word processing programs (VIM)
+* Create an application that is integrated more closely with other word processing programs (ex: VIM)
 * Machine learning to discern the idea behind the change
 
 ## Use cases 
@@ -59,8 +60,8 @@ Stretch goals:
 * Adapt NLP to code - notify collaborators when a new function or functionality is added.
 
 ## API uses 
-
-(specific Google APIs you will need to use to make the app)
+* realtime API
+* drive SDK
 
 ## Implementation plan 
 
