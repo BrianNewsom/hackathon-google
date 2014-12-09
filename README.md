@@ -10,7 +10,6 @@
 
 ## Finding 1
 
-![visualization](viz.png) or {{ query/result }}
 
 ```js
 db.google.find().sort({“rankingInfo.absoluteScore” : 1}).limit(10)
@@ -33,7 +32,6 @@ received apps.  This is good to know so we don’t create something that’s alr
 
 ## Finding 2
 
-![visualization](viz.png) or {{ query/result }}
 
 {{ discussion }}
 
@@ -42,6 +40,9 @@ received apps.  This is good to know so we don’t create something that’s alr
 # Objective 2. Data App
 
 ## Mockup 
+
+![visualization](DriveNotify.jpg)
+![visualization](ChromeNotify.jpg)
 
 Our idea is a notification app that notifies you when changes are made to a file in drive. This tool would be best utilized as a chrome extension or google now.
 Key features:
