@@ -10,7 +10,6 @@
 
 ## Finding 1
 
-
 ```js
 db.google.find().sort({“rankingInfo.absoluteScore” : 1}).limit(10)
 ```
@@ -32,6 +31,19 @@ received apps.  This is good to know so we don’t create something that’s alr
 
 ## Finding 2
 
+```js
+> db.drive.aggregate([{$unwind: "$primaryMimeTypes"},{$project: {mimeTypes: {$substr:["$primaryMimeTypes", 0, 37]}}},{$group:{_id: "$mimeTypes", count: {$sum: 1}}}
+```
+```
+{ "_id" : "application/vnd.google-apps.drive-sdk", "count" : 275 }
+{ "_id" : "application/vnd.google.drive.ext-type", "count" : 35 }
+{ "_id" : "application/vnd.openxmlformats-office", "count" : 27 }
+{ "_id" : "application/pdf", "count" : 22 }
+{ "_id" : "text/plain", "count" : 22 }
+{ "_id" : "text/html", "count" : 17 }
+{ "_id" : "image/png", "count" : 17 }
+{ "_id" : "image/jpeg", "count" : 16 }
+```
 
 {{ discussion }}
 
