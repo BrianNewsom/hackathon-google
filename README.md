@@ -26,7 +26,13 @@
 
 ## Mockup 
 
-Our app would 
+Our idea is a notification app that notifies you when changes are made to a file in drive. This tool would be best utilized as a chrome extension or google now.
+Key features:
+* Links to Hangouts and the drive document
+
+Stretch goals:
+* Create an application that is integrated more closely with other word processing programs (VIM)
+* Machine learning to discern the idea behind the change
 
 ## Use cases 
 
