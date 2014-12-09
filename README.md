@@ -53,6 +53,9 @@ Stretch goals:
 
 ## Use cases 
 
+* Working on a group project - know who, when, and what is occuring to your doc without ever opening the document.
+* Editor of a magazine using google docs - collaboration within traditional writing environment.
+* Adapt NLP to code - notify collaborators when a new function or functionality is added.
 
 ## API uses 
 
