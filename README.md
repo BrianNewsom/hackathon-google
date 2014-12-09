@@ -45,6 +45,9 @@ received apps.  This is good to know so we don’t create something that’s alr
 { "_id" : "image/jpeg", "count" : 16 }
 ```
 
+It seems like most apps are using the Google Drive SDK filetypes, which means they may not be
+implementing solutions which are non-webapps.
+
 {{ discussion }}
 
 ## Finding (add more if necessary)
