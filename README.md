@@ -1,10 +1,10 @@
 # Team Members
 
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
+* [Adrian Chen](github.com/adrian-chen)
+* [Brian Newsom](github.com/briannewsom)
+* [Ian Ker-seyemer](github.com/ianks)
+* [Jake White](github.com/jakewhite8)
+* [Mike Fyk](github.com/thefyk)
 
 # Objective 1. Analysis
 
@@ -26,11 +26,10 @@
 
 ## Mockup 
 
-(screenshots or drawings)
+Our app would 
 
 ## Use cases 
 
-(one or two examples how a user would use your app)
 
 ## API uses 
 
