@@ -42,7 +42,7 @@ received apps.  This is good to know so we don’t create something that’s alr
 ## Mockup 
 
 ![visualization](DriveNotify.jpg)
-![visualization](ChromeNotify.jpg)
+![visualization](ChromeNotify2.jpg)
 
 Our idea is a notification app that notifies you when changes are made to a file in drive. This tool would be best utilized as a chrome extension or google now.
 Key features:
