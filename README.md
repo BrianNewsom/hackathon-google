@@ -12,7 +12,7 @@
 
 
 ```js
-db.google.find().sort({“rankingInfo.absoluteScore” : 1}).limit(10)
+db.google.find().sort({“rankingInfo.absoluteScore” : -1}).limit(10)
 ```
 ```
 { “_id” : ObjectId(“548649dcd23e3ff8aa754362”), “id” : “986695912626”, “name” : “the little memory”, “productId” : “honmnihjmiioifehpiepkldneddleedn”, “primaryMimeTypes” : [ “application/vnd.google-apps.drive-sdk.986695912626” ] }
@@ -34,8 +34,6 @@ received apps.  This is good to know so we don’t create something that’s alr
 
 
 {{ discussion }}
-
-## Finding (add more if necessary)
 
 # Objective 2. Data App
 
