@@ -15,9 +15,7 @@
 ```js
 db.google.find().sort({“rankingInfo.absoluteScore” : 1}).limit(10)
 ```
-```json
-
-
+```
 { “_id” : ObjectId(“548649dcd23e3ff8aa754362”), “id” : “986695912626”, “name” : “the little memory”, “productId” : “honmnihjmiioifehpiepkldneddleedn”, “primaryMimeTypes” : [ “application/vnd.google-apps.drive-sdk.986695912626” ] }
 { “_id” : ObjectId(“548649dcd23e3ff8aa75436d”), “id” : “694729839641”, “name” : “Pixeffect - Photo Effects”, “productId” : “koekplodmdaalggcclajcecoomipnpca”, “primaryMimeTypes” : [ “application/vnd.google-apps.drive-sdk.694729839641” ] }
 { “_id” : ObjectId(“548649dcd23e3ff8aa754373”), “id” : “860115892612”, “name” : “Video Player”, “productId” : “gdebnehfojpoccpaocfbelbclfnpbmij”, “primaryMimeTypes” : [ “application/vnd.google-apps.drive-sdk.860115892612” ] }
